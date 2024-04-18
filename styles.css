@@ -1,0 +1,217 @@
+.social-icons {
+
+    position:
+        absolute;
+
+    top:
+        20px;
+
+    right:
+        20px;
+
+    color:
+        #ffffff;
+
+}
+
+h1 {
+
+    font-family:
+        "Yeseva One",
+        serif;
+
+    font-weight:
+        700;
+
+    font-style:
+        normal;
+
+}
+
+body {
+
+    background-color:
+        #11212b;
+
+    color:
+        #ffffff;
+
+    line-height:
+        1.6;
+
+}
+
+h2 {
+
+    margin-left:
+        7%;
+
+    font-family:
+        "Yeseva One",
+        serif;
+
+    font-weight:
+        700;
+
+    font-style:
+        normal;
+
+}
+
+.blue {
+
+    color:
+        #10cf94;
+
+}
+
+h3 {
+
+    font-family:
+        "Montserrat",
+        sans-serif;
+
+    margin-left:
+        7%;
+
+    font-weight:
+        400;
+
+    color:
+        rgb(90,
+            90,
+            90);
+
+}
+
+a {
+
+    color:
+        inherit;
+
+    text-decoration:
+        inherit;
+
+}
+
+nav {
+
+    font-family:
+        "Montserrat",
+        sans-serif;
+
+    display:
+        flex;
+
+    justify-content:
+        space-evenly;
+
+}
+
+nav li {
+
+    display:
+        inline-block;
+
+    padding:
+        10px 7px;
+
+}
+
+
+
+
+
+
+#projet {
+
+    background-color:
+        #10cf94;
+
+    color:
+        white;
+
+    padding:
+        4px 12px;
+
+}
+
+
+
+
+.Gallery {
+
+    margin-left:
+        6%;
+
+    margin-right:
+        6%;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(auto-fit,
+            minmax(20%,
+                1fr));
+
+    grid-gap:
+        10px;
+
+    margin:
+        0 6%;
+
+}
+
+.Gallery img {
+
+    width:
+        100%;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .Gallery {
+
+        grid-template-columns:
+            repeat(3,
+                1fr);
+
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .Gallery {
+
+        grid-template-columns:
+            repeat(5,
+                1fr);
+
+    }
+
+}
+
+.fin {
+
+    font-family:
+        "Yeseva One",
+        serif;
+
+    font-weight:
+        700;
+
+    font-style:
+        normal;
+
+    color:
+        rgb(255,
+            255,
+            255);
+
+}

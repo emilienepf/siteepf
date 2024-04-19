@@ -71,14 +71,6 @@ h4 {
     font-style: normal;
 }
 
-h6 {
-    font-family: "Yeseva One", serif;
-    margin-left: 45%;
-    font-weight: 200;
-    font-style: normal;
-    color:#888
-}
-
 a {
     color: inherit;
     text-decoration: inherit;
@@ -114,17 +106,63 @@ nav li {
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .Gallery {
         grid-template-columns: repeat(3, 1fr);
+        /* Afficher 5 images par ligne */
+        grid-template-rows: repeat(3, 1fr);
+        /* Limiter à 3 lignes */
+    }
+
+    /* Cacher la 16ème image */
+    .Gallery img:nth-child(10) {
+        display: none;
+    }
+
+    .Gallery img:nth-child(11) {
+        display: none;
+    }
+
+    .Gallery img:nth-child(12) {
+        display: none;
+    }
+
+    .Gallery img:nth-child(13) {
+        display: none;
+    }
+
+    .Gallery img:nth-child(14) {
+        display: none;
+    }
+
+    .Gallery img:nth-child(15) {
+        display: none;
+    }
+
+    .Gallery img:nth-child(16) {
+        display: none;
+    }
+
+    nav ul li a {
+        margin-right: 90% ;
+        font-size: 0.78em;
+        /* Taille de police réduite */
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .Gallery {
-        grid-template-columns: repeat(5, 1fr);
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .Gallery {
+            grid-template-columns: repeat(5, 1fr);
+            /* Afficher 5 images par ligne */
+            grid-template-rows: repeat(3, 1fr);
+            /* Limiter à 3 lignes */
+        }
+
+        /* Cacher la 16ème image */
+        .Gallery img:nth-child(16) {
+            display: none;
+        }
     }
-}
 
 .fin {
     font-family: "Yeseva One", serif;

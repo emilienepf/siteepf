@@ -1,3 +1,14 @@
+/* Ajout de la couleur grise pour "EMILIEN BARDIN" */
+.fin {
+    color: #888;
+    text-align: center; /* Centrer le texte */
+}
+
+/* Ajout de la couleur bleue pour "Créatif & Engagé" et le point */
+.blue, .point {
+    color: #10cf94;
+}
+
 /* Ajout de l'effet de zoom léger sur les images au survol */
 .Gallery img {
     transition: transform 0.3s ease; /* Transition fluide */
@@ -15,17 +26,26 @@
     color: #ffffff;
 }
 
+.social-icons2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #11212b;
+}
+
 h1 {
     font-family: "Yeseva One", serif;
     font-weight: 700;
     font-style: normal;
 }
 
+
 body {
     background-color: #11212b;
     color: #ffffff;
     line-height: 1.4;
 }
+
 
 h2 {
     margin-left: 7%;

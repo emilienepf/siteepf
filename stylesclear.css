@@ -1,0 +1,126 @@
+/* Ajout de la couleur grise pour "EMILIEN BARDIN" */
+.fin {
+    color: #888;
+    text-align: center; /* Centrer le texte */
+}
+
+/* Ajout de la couleur bleue pour "Créatif & Engagé" et le point */
+.blue, .point {
+    color: #10cf94;
+}
+
+/* Ajout de l'effet de zoom léger sur les images au survol */
+.Gallery img {
+    transition: transform 0.3s ease; /* Transition fluide */
+}
+
+.Gallery img:hover {
+    transform: scale(1.05); /* Zoom de 5% */
+}
+
+/* Styles existants */
+.social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #11212b;
+}
+
+.social-icons2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: "Yeseva One", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #ffffff;
+    color: #11212b;
+    line-height: 1.4;
+}
+
+
+h2 {
+    margin-left: 7%;
+    font-family: "Yeseva One", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.blue {
+    color: #10cf94;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 7%;
+    font-weight: 400;
+    color: rgb(252, 252, 252);
+}
+
+h4 {
+    font-family: "Yeseva One", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+nav {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 7px;
+}
+
+#projet {
+    background-color: #10cf94;
+    color: rgb(0, 0, 0);
+    padding: 4px 12px;
+}
+
+.Gallery {
+    margin-left: 6%;
+    margin-right: 6%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    grid-gap: 10px;
+    margin: 0 6%;
+}
+
+.Gallery img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .Gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.fin {
+    font-family: "Yeseva One", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}

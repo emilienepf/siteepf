@@ -26,11 +26,8 @@
     color: #11212b;
 }
 
-.social-icons2 {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: #ffffff;
+.social-icons a {
+    padding: 0px 4px;
 }
 
 h1 {

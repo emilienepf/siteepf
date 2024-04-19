@@ -71,6 +71,14 @@ h4 {
     font-style: normal;
 }
 
+h6 {
+    font-family: "Yeseva One", serif;
+    margin-left: 45%;
+    font-weight: 200;
+    font-style: normal;
+    color:#888
+}
+
 a {
     color: inherit;
     text-decoration: inherit;
